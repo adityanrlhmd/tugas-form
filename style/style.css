@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.jumbotron {
+    width: 550px;
+    margin: auto;
+}
+
+.jumbotron h1 {
+    text-align: center;
+}
+
+.jumbotron p {
+    padding-left: 2%;
+}
+
+.form {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.row:not(:first-of-type) {
+    margin: 15px 0px;
+}
+
+.row>label {
+    width: 150px;
+    min-height: 20px;
+    margin-top: 5px
+}
+
+.row:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+input[type="url"],
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 5px 10px;
+    border: solid 1px #CCC;
+    line-height: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+select[name="kategori"] {
+    background: #FFF;
+    width: 100%;
+    padding: 5px 10px;
+    border: solid 1px #CCC;
+    line-height: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+input[name="harga"] {
+    width: 35%;
+    padding: 5px 10px;
+    border: solid 1px #CCC;
+    line-height: 20px;
+    border-radius: 5px;
+    display: inline;
+    margin-right: 20px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+.hg {
+    display: flex;
+}
+
+select[name="matauang"] {
+    background: #FFF;
+    width: 35%;
+    padding: 5px 10px;
+    border: solid 1px #CCC;
+    line-height: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+select[name="gram"] {
+    background: #FFF;
+    width: 15%;
+    padding: 5px 10px;
+    border: solid 1px #CCC;
+    line-height: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+select[name="cm"] {
+    background: #FFF;
+    width: 15%;
+    padding: 6px 10px;
+    border: solid 1px #CCC;
+    line-height: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+input[name="berat"] {
+    width: 15%;
+    padding: 5px 10px;
+    border: solid 1px #CCC;
+    line-height: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+.bu {
+    display: flex;
+}
+
+input[name="ukuran"] {
+    width: 15.5%;
+    padding: 5px 10px;
+    border: solid 1px #CCC;
+    line-height: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+.lb {
+    padding-right: 30px;
+}
+
+textarea[name="catatan"] {
+    border: solid 1px #CCC;
+    line-height: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+input[name="jumlah"] {
+    display: inline;
+    width: 15%;
+    text-align: center;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+.aa {
+    display: flex;
+}
+
+button {
+    width: 5%;
+}
+
+select[name="negara"] {
+    background: #FFF;
+    width: 50%;
+    padding: 5px 10px;
+    border: solid 1px #CCC;
+    line-height: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+.gambar>input {
+    display: none;
+}
+
+.gambar {
+    cursor: pointer;
+    display: block;
+    width: 30%;
+    padding-bottom: 20%;
+    color: black;
+    font-size: 12px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.gambar img:hover {
+    -webkit-transform: scale(1.58);
+    transform: scale(1.04);
+}
+
+input[type="submit"] {
+    padding: 10px 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px
+}
+
+input[name="beliin"] {
+    background: #c53f27;
+    color: #FFF;
+    width: 35%;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+input[name="tambah"] {
+    width: 35%;
+    background: white;
+    color: black;
+    font-size: 12px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+input[name="tambah"]:hover {
+    -webkit-transform: scale(1.58);
+    transform: scale(1.1);
+}
+
+input[name="beliin"]:hover {
+    -webkit-transform: scale(1.58);
+    transform: scale(1.1);
+}
+
+::-webkit-input-placeholder {
+    color: #616266;
+    letter-spacing: .5px
+}
+
+::-moz-placeholder {
+    color: #616266;
+    letter-spacing: .5px
+}
+
+:-ms-input-placeholder {
+    color: #616266;
+    letter-spacing: .5px
+}
+
+input:-moz-placeholder {
+    color: #616266;
+    letter-spacing: .5px
+}
